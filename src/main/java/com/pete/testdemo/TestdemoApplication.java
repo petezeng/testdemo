@@ -11,6 +11,7 @@ public class TestdemoApplication {
 
     @GetMapping("/")
     public String index(){
+        System.out.println("test");
         return "Hello Spring Boot";
     }
     public static void main(String[] args) {
