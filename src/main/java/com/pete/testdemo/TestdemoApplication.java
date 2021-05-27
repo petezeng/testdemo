@@ -8,9 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @SpringBootApplication
 public class TestdemoApplication {
+
 /*****
 ***master
 ****/
+
     @GetMapping("/")
     public String index(){
         System.out.println("test");
