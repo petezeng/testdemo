@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class TestdemoApplication {
 /***
-*TEST
+*TEST1
 ***/
     @GetMapping("/")
     public String index(){
